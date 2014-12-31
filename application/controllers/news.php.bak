@@ -18,7 +18,7 @@ public function index()
 
 		
 		$rowcount = $this->news_model->get_row_count();
-		//log_message('debug','PIYUSH: just for test');
+		
 		print '<strong> Row Count : '.$rowcount.'</strong>';
 		
 	}
